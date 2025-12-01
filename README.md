@@ -11,7 +11,7 @@ Specifically, we're developing an architecture that generates a 3D asset from a 
 Our approach focuses on several techniques to lower both CUDA memory usage and training time. 
 We'll implement model-level optimizations such as Flash Attention, Sparse Convolutions, and Elastic Memory Management.
 
-![Demo of Feature](assets/output.gif)
+![Demo of Feature](assets/output_small.gif)
 
 ## (b) Model Architecture
 
