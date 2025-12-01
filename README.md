@@ -11,13 +11,13 @@ Specifically, we're developing an architecture that generates a 3D asset from a 
 Our approach focuses on several techniques to lower both CUDA memory usage and training time. 
 We'll implement model-level optimizations such as Flash Attention, Sparse Convolutions, and Elastic Memory Management.
 
-<img src="file:///C:/Users/zjin/Downloads/codes/CSCI653_Project/assets/output.gif" title="" alt="Demo of Feature" data-align="center">
+![Demo of Feature](assets/output.gif)
 
 ## (b) Model Architecture
 
 SS-Flow Transformer has 0.5 Billion parameters, and SLat-Flow Transformer also has 0.5 Billion parameters. The network is so huge, thus we need special techniques to accelerate training speed and reduce training memory cost.
 
-![](C:\Users\zjin\Downloads\codes\CSCI653_Project\assets\Snipaste_2025-12-01_02-42-33.png)
+![Model Architecture](assets/Snipaste_2025-12-01_02-42-33.png)
 
 ## (c) Acceleration Methods
 
