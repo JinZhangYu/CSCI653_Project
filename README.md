@@ -35,7 +35,7 @@ The standard attention mechanism in transformers is a major bottleneck, consumin
 
 3D generative models often rely on 3D data representations like voxels. A typical resolution, such as 64×64×64, results in over 262,000 data points, making it computationally expensive for traditional convolution and transformer layers. Sparse convolution is a memory-efficient technique that intelligently processes this 3D data. It focuses computation only on the non-empty parts of the voxel grid, drastically cutting down on unnecessary calculations and memory usage.
 
-<img title="" src="file:///C:/Users/zjin/Downloads/codes/CSCI653_Project/assets/nrupa_conv_exp.png" alt="" width="526" data-align="center">
+![FlashAttention](assets/nrupa_conv_exp.png)
 
 ### (D.3) Activation Checkpointing
 
