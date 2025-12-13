@@ -21,7 +21,7 @@ We'll implement model-level optimizations such as Flash Attention, Sparse Convol
 
 SS-Flow Transformer has 0.5 Billion parameters, and SLat-Flow Transformer also has 0.5 Billion parameters. The network is so huge, thus we need special techniques to accelerate training speed and reduce training memory cost.
 
-<img title="" src="file:///C:/Users/zjin/Downloads/codes/CSCI653_Project/assets/Snipaste_2025-12-12_23-12-49.png" alt="" width="503" data-align="center">
+![Demo of Feature](assets/Snipaste_2025-12-12_23-12-49.png)
 
 ## (D) Methods
 
@@ -29,7 +29,7 @@ SS-Flow Transformer has 0.5 Billion parameters, and SLat-Flow Transformer also h
 
 The standard attention mechanism in transformers is a major bottleneck, consuming vast amounts of CUDA memory and computation time. This limitation often prevents the use of larger, more powerful models. FlashAttention is a more memory-efficient and faster algorithm that overcomes these issues by rethinking how attention is calculated, significantly reducing both memory and time costs.
 
-![FlashAttention](C:\Users\zjin\Downloads\codes\CSCI653_Project\assets\flashattn_banner.jpg)
+![FlashAttention](assets/flashattn_banner.jpg)
 
 ### (D.2) Sparse Convolution
 
@@ -41,7 +41,7 @@ The standard attention mechanism in transformers is a major bottleneck, consumin
 
 This technique involves dynamically allocating and deallocating memory during the training process. Instead of reserving a fixed, large block of memory from the start, elastic memory management adjusts memory usage on the fly based on the model's current needs. This prevents memory waste and allows larger models to be trained on hardware with limited resources by making smarter use of available memory.
 
-![](C:\Users\zjin\Downloads\codes\CSCI653_Project\assets\Snipaste_2025-12-12_23-37-23.png)
+![](assets/Snipaste_2025-12-12_23-37-23.png)
 
 ## (E) Results
 
